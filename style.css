@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+#subform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: skyblue;
+    width: 400px;
+    height: 550px;
+    padding: 10px 7px;
+    font-size: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px black;
+}
+
+.intex {
+    display: flex;
+    width: 350px;
+    margin: 15px;
+    padding: 2px;
+    border-radius: 4px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: lightseagreen;
+    color: white;
+    box-shadow: 0 1px 4px black;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    margin: 5px 7px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 5px black;
+}
